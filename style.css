@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-image: url(images/benz.jpeg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10px;
+  margin: 0 50px;
+  font-weight: bold;
+}
+
+.menu p {
+  color: #fff;
+}
+
+.menu-bar a {
+  text-transform: uppercase;
+  padding: 10px 10px;
+  color: #fff;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.menu-bar a:hover,
+.menu-bar a:visited,
+.menu-bar a:first-child {
+  background-color: rgb(46, 46, 122);
+  border-radius: 15px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.container {
+  padding: 80px 50px;
+}
+
+.header1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 8px;
+}
+
+h1 {
+  color: #fff;
+  margin: 15px 0;
+  font-size: 28px;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.header2 {
+  color: #fff;
+  font-size: 10px;
+  margin: 20px 0;
+}
+
+button {
+  background-color: rgb(46, 46, 122);
+  color: #fff;
+  padding: 10px 10px;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 35vh;
+  text-transform: uppercase;
+}
+
+.contact {
+  border: 1px solid black;
+  background-color: rgb(17, 17, 17);
+  opacity: 0.8;
+  padding: 10px;
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 50px;
+  border-color: rgb(82, 81, 81);
+}
+
+.contact p {
+  color: #fff;
+  padding: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+input {
+  color: #000;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+section {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+select {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.confirm {
+  background-color: rgb(46, 46, 122);
+  color: #000;
+  padding: 5px 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.service {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+.we {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.services {
+  display: flex;
+  width: 80%;
+  gap: 50px;
+  margin: 40px auto;
+}
+
+.services div {
+  background-color: whitesmoke;
+  text-transform: capitalize;
+}
+
+.services h2 {
+  text-align: center;
+}
+
+.services p {
+  font-size: 15px;
+  text-transform: none;
+}
+
+footer {
+  font-style: italic;
+  color: #fff;
+  background-color: rgb(46, 46, 122);
+  text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+  .menu,
+  .main-container,
+  section {
+    width: 100%;
+  }
+}
